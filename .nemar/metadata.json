@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Fatigue Characterization of EEG under Mixed Reality Stereo Vision",
+  "description": "This dataset comprises EEG recordings from 24 electrodes acquired during a mixed reality stereo vision study designed to characterize mental fatigue. Participants completed a protocol involving resting scenes and movement observation tasks with periodic reciprocal movements. The dataset supports both resting-state and task-state EEG analysis, providing a resource for investigating fatigue-related neural correlates under immersive visual conditions.",
+  "methods_description": "EEG data were recorded from 24 electrodes positioned across frontal (Fp1, Fp2, AF3, AF4, F7, Fz, F8, FC5, FC6), temporal (FT7, FT8), central (C3, Cz, C4, CP3, CP4), parietal (P3, Pz, P4, PO3, PO4), and occipital (O1, Oz, O2) regions. Participants completed a protocol consisting of 2 resting scenes and 15 movement scenes, each movement scene containing 20 trials of reciprocal periodic movements at fixed depth and velocity, followed by rating scenes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,54 +11,12 @@
     "Chunguang Tao": {},
     "Qi Li": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005416.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005416",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005416",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Jilin Scientific and Technology Development Program",
-      "award_number": "20240101358JC"
-    }
-  ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "4.9 GB (29 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises EEG recordings from 24 electrodes collected during a mixed reality stereo vision experiment designed to characterize mental fatigue. Participants completed a protocol involving resting scenes and movement observation tasks with periodic reciprocal movements. The dataset supports both resting-state and task-state EEG analyses, providing a resource for investigating fatigue-related neural correlates under immersive visual conditions. This metadata record describes the EEG dataset originally published on OpenNeuro (doi:10.18112/openneuro.ds005416.v1.0.1).",
-  "methods_description": "EEG data were recorded from 24 electrodes positioned across frontal (Fp1, Fp2, AF3, AF4, F7, Fz, F8, FC5, FC6), temporal (FT7, FT8), central (C3, Cz, C4, CP3, CP4), parietal (P3, Pz, P4, PO3, PO4), and occipital (O1, Oz, O2) regions. Participants completed a protocol consisting of 2 resting scenes and 15 movement scenes, each containing 20 trials of reciprocal periodic movements at fixed depth and velocity, followed by rating scenes.",
   "keywords": [
     {
       "term": "EEG"
     },
     {
       "term": "fatigue"
-    },
-    {
-      "term": "mental fatigue"
     },
     {
       "term": "mixed reality"
@@ -68,14 +28,46 @@
       "term": "resting-state"
     },
     {
-      "term": "movement observation"
-    },
-    {
-      "term": "immersive"
-    },
-    {
-      "term": "task-state"
+      "term": "motor observation"
     }
   ],
-  "source_hash": "7c78ca446d60f8919b2db0df6dc02bf4fd201b1ed68792f96b091ea7cfb50ecd"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005416",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005416",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005416.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Jilin Scientific and Technology Development Program",
+      "award_number": "20240101358JC"
+    }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "22.9 GB (47 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "source_hash": "e33722bda1965347a01c434d6268e2e1eedf2dde0728b1b4141e1c53e124f667"
 }
