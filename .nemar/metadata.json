@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005416",
+  "source": "openneuro",
+  "source_id": "ds005416",
+  "title": "Fatigue Characterization of EEG under Mixed Reality Stereo Vision",
+  "authors": {
+    "Yan Wu": {},
+    "Chunguang Tao": {},
+    "Qi Li": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005416.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.1.1",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Jilin Scientific and Technology Development Program (grant no. 20240101358JC)"
+    }
+  ],
+  "acknowledgements": "Thanks to Mengru Du, Qingyu Na, Yuanyuan Wang, Dianfei Zhao and Tianqi Mu for their assistance with the data collection"
+}
