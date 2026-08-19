@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Fatigue Characterization of EEG under Mixed Reality Stereo Vision",
-  "description": "This dataset comprises EEG recordings from 24 electrodes acquired during a mixed reality stereo vision study designed to characterize mental fatigue. Participants completed a protocol involving resting scenes and movement observation tasks with periodic reciprocal movements. The dataset supports both resting-state and task-state EEG analysis, providing a resource for investigating fatigue-related neural correlates under immersive visual conditions.",
-  "methods_description": "EEG data were recorded from 24 electrodes positioned across frontal (Fp1, Fp2, AF3, AF4, F7, Fz, F8, FC5, FC6), temporal (FT7, FT8), central (C3, Cz, C4, CP3, CP4), parietal (P3, Pz, P4, PO3, PO4), and occipital (O1, Oz, O2) regions. Participants completed a protocol consisting of 2 resting scenes and 15 movement scenes, each movement scene containing 20 trials of reciprocal periodic movements at fixed depth and velocity, followed by rating scenes.",
+  "description": "This dataset contains EEG recordings collected to characterize visual fatigue induced by mixed reality stereo vision. Participants viewed resting and movement scenes designed to elicit varying degrees of visual fatigue while EEG was recorded from 24 scalp electrodes. The dataset supports both resting-state and task-state EEG analyses related to fatigue characterization under stereoscopic visual stimulation.",
+  "methods_description": "EEG was recorded using 24 electrodes (Fp1, Fp2, AF3, AF4, F7, Fz, F8, FC5, FC6, FT7, FT8, C3, Cz, C4, CP3, CP4, P3, Pz, P4, PO3, PO4, O1, Oz, O2) covering frontal, temporal, central, parietal, and occipital regions. Each participant watched 2 resting scenes and 15 movement scenes in a mixed reality stereo vision setup, followed by a rating scene after each exercise scene. Movement scenes consisted of 20 trials of reciprocal periodic movements at fixed depth and velocity.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,7 +16,9 @@
       "term": "EEG"
     },
     {
-      "term": "fatigue"
+      "term": "Fatigue",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005221"
     },
     {
       "term": "mixed reality"
@@ -25,10 +27,10 @@
       "term": "stereo vision"
     },
     {
-      "term": "resting-state"
+      "term": "visual fatigue"
     },
     {
-      "term": "motor observation"
+      "term": "resting-state EEG"
     }
   ],
   "related_identifiers": [
@@ -38,14 +40,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005416",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005416.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005416",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
